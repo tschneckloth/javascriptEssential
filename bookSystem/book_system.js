@@ -1,5 +1,10 @@
 let books = [];
 
+document.addEventListener("DOMContentLoaded", (e) => {
+    console.log(e);
+    showbooks();
+})
+
 function addBook() {
     const bookName = document.getElementById('bookName').value;
     const authorName = document.getElementById('authorName').value;
@@ -20,14 +25,26 @@ function addBook() {
     }
 }
 
+function removeBook(id) {
+    console.log(id);
+    books.splice(id, 1);
+    showbooks();
+}
+
 function showbooks() {
-    const booksDiv = books.map((book, index) => `<h1>book Number: ${index + 1}</h1>
-        <p><strong>Book Name: </strong>${book.name}</p>
-        <p><strong>Author Name:</strong> ${book.authorName}</p>
-        <p><strong>Book Description:</strong> ${book.bookDescription}</p>
-        <p><strong>No. of Pages:</strong> ${book.pagesNumber} page(s)</p>`
-    );
-    document.getElementById('books').innerHTML = booksDiv.join('');
+    const bookList = document.getElementById('books');
+    if (books.length === 0) {
+        bookList.innerHTML = `<div><h3>Oops!</h3><p>Sorry, there are currently no books in the list</p>`;
+    } else {
+        const booksDiv = books.map((book, index) => `<div><h3>book Number: ${index + 1}</h3>
+            <p><strong>Book Name: </strong>${book.name}</p>
+            <p><strong>Author Name:</strong> ${book.authorName}</p>
+            <p><strong>Book Description:</strong> ${book.bookDescription}</p>
+            <p><strong>No. of Pages:</strong> ${book.pagesNumber} page(s)</p>
+            <button onclick="removeBook(${index})">Delete</delete></div>`
+        );
+        bookList.innerHTML = booksDiv.join('');
+    }
 }
 
 function clearInputs() {
