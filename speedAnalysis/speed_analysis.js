@@ -45,6 +45,6 @@ function startTest() {
 
     // Reset the button
     var button = document.getElementById("btn");
-    button.innerHTML = "Start Test";
+    button.innerHTML = "Reset Test";
     button.onclick = startTest;
 }
