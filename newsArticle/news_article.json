@@ -1,0 +1,38 @@
+{
+  "articles": [
+    {
+      "title": "A Flock of Seagulls release 'Some Dreams,' announce 2025 album",
+      "description": "The legendary '80s new wave band is back with their first album of original material in 30 years. The new single 'Some Dreams' offers a preview of their upcoming 2025 album, showcasing their signature blend of synthesizers and guitars.",
+      "details": ["The last original album was released in 1995.", "The band had reunited their original lineup in 2018 to record orchestral versions of their hits.", "The single comes with five different versions, including an extended mix and an instrumental."],
+      "link": "https://www.synthpopfanatic.com/new-music/a-flock-of-seagulls-release-some-dreams-announce-2025-album/"
+    },
+    {
+      "title": "Where Are They Now?: A Flock of Seagulls",
+      "description": "Exploring the history and recent activities of A Flock of Seagulls, from their breakout hit 'I Ran (So Far Away)' to their Grammy win for 'D.N.A.' The article also discusses their reformation to record orchestral versions of their songs in recent years.",
+      "details": ["The band won a Grammy in 1983 for Best Rock Instrumental Performance.", "In 2018 and 2021, they released albums with the Prague Philharmonic Orchestra, featuring new renditions of their previous hits.", "The band has undergone numerous lineup changes over the years."],
+      "link": "https://www.americansongwriter.com/where-are-they-now-a-flock-of-seagulls/"
+    },
+    {
+      "title": "The Original Members Reunited on Record",
+      "description": "Mike Score, along with his original band members, reunited to record new versions of their classic songs. This reunion showcases the band's evolution while maintaining their iconic sound.",
+      "details": [
+        "The reunion was marked by the release of two orchestral albums.",
+        "The band explored new arrangements with a cinematic approach, enhancing their original tracks with the Prague Symphony Orchestra.",
+        "The reunion has been well-received, highlighting the enduring legacy of their music."
+      ],
+      "link": "https://www.louderthanwar.com/the-original-members-reunited-on-record/"
+    },
+    {
+      "title": "Legendary Synthpoppers A Flock of Seagulls Tell Their History in New Video Interview",
+      "description": "A Flock of Seagulls discuss their musical journey, influences, and the creation of their latest orchestral project. The band's modern relevance and impact on contemporary music are highlighted in the interview.",
+      "details": ["The band reunited in 2003 and has been active in live performances.", "Their latest album, 'Ascension,' features orchestral versions of their classic hits.", "Mike Score, the lead vocalist, shared insights into the band’s evolution and creative process."],
+      "link": "https://www.popmatters.com/a-flock-of-seagulls-tell-their-history-in-new-video-interview/"
+    },
+    {
+      "title": "A Flock of Seagulls, Wang Chung, Naked Eyes, and Tommy Tutone part of Spokane Tribe Casino Pop Goes the ‘80s event",
+      "description": "The band performed alongside other iconic '80s bands in a nostalgic event that celebrated the sounds of the decade. A Flock of Seagulls performed their famous hits, including 'I Ran' and 'Space Age Love Song.'",
+      "details": ["The event brought together several well-known '80s bands.", "A Flock of Seagulls performed some of their biggest hits, reminiscing the era of new wave and synthpop.", "The band continues to perform live, keeping their legacy alive."],
+      "link": "https://www.spokesman.com/stories/2024/aug/12/pop-goes-the-80s-event/"
+    }
+  ]
+}
